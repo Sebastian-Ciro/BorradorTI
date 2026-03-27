@@ -1,0 +1,27 @@
+package org.model;
+
+public class Box extends GameObject implements Movable{
+    private boolean onTarget;
+
+
+    public Box(int column, int row, String symbol) {
+        super(column, row, symbol);
+    }
+
+    private void move(Direction direction){
+
+    }
+
+    public boolean isOnTarget() {
+        return onTarget;
+    }
+
+    public void setOnTarget(boolean onTarget) {
+        this.onTarget = onTarget;
+    }
+
+    @Override
+    public void move(String direction) {
+
+    }
+}
