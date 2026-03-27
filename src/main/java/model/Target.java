@@ -1,4 +1,4 @@
-package org.model;
+package model;
 
 public class Target extends GameObject{
     private boolean occupied;

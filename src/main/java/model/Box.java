@@ -1,4 +1,4 @@
-package org.model;
+package model;
 
 public class Box extends GameObject implements Movable{
     private boolean onTarget;
@@ -8,9 +8,6 @@ public class Box extends GameObject implements Movable{
         super(column, row, symbol);
     }
 
-    private void move(Direction direction){
-
-    }
 
     public boolean isOnTarget() {
         return onTarget;
@@ -21,7 +18,7 @@ public class Box extends GameObject implements Movable{
     }
 
     @Override
-    public void move(String direction) {
+    public void move(Direction direction) {
 
     }
 }

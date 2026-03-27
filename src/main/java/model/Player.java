@@ -1,4 +1,4 @@
-package org.model;
+package model;
 
 public class Player extends GameObject implements Movable{
     private int moveCount;
@@ -10,9 +10,6 @@ public class Player extends GameObject implements Movable{
         this.pushCount = pushCount;
     }
 
-    private void move(Direction direction){
-
-    }
 
     public int getPushCount() {
         return pushCount;
@@ -31,7 +28,7 @@ public class Player extends GameObject implements Movable{
     }
 
     @Override
-    public void move(String direction) {
+    public void move(Direction direction) {
 
     }
 }
